@@ -7,6 +7,9 @@
  - Sign up form
  - Form Validation
  - useRef Hook
+ - Firebase Setup
+ - Deploying our app to production
+ - Create Sign Up user account
 
  # Features
 - Login/Sing Up
@@ -30,3 +33,4 @@
 
 - [Regex for password Validation](https://regexr.com/3bfsi)
 
+- [Firebase Authentication](https://firebase.google.com/docs/auth/web/firebaseui)
