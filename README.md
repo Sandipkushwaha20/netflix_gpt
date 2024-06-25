@@ -18,7 +18,8 @@
  - Bugfix: if the user is not logged in, Redirect /browse to Login Page and vice-versa
  - Unsubscibe to the onAuthSatateChanged callback
  - Add all the hardcoded values to the cnstants file
- - Fetch from TMDB Movies
+ - Register TMDB API & create an app & get access token
+ - Get Data from TMDB now playing movis list API
  - 
 
 
@@ -45,3 +46,13 @@
 - [Regex for password Validation](https://regexr.com/3bfsi)
 
 - [Firebase Authentication](https://firebase.google.com/docs/auth/web/firebaseui)
+
+
+## Why 2 times rendering happen?
+``` javascript
+    <React.StrictMode>
+    <App />
+  </React.StrictMode>
+  If I will put my <App/> inside React.StrictMode then It will just happen 2 times in your local but at production 1 time , bc react does extra rendering of your components to check inconstancy in between your call (It's a good thing)
+```
+
