@@ -49,7 +49,7 @@ const Header = () => {
         alt="logo"
       />
       {user && (
-        <div className="flex p-2">
+        <div className="flex">
           <img
             alt="usericon"
             className="w-10 h-10 rounded-lg mt-4"

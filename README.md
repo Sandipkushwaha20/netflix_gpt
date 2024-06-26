@@ -20,7 +20,13 @@
  - Add all the hardcoded values to the cnstants file
  - Register TMDB API & create an app & get access token
  - Get Data from TMDB now playing movis list API
- - 
+ - Custom Hook for now Playing movies
+ - Create movieSlice
+ - Update store with movie slice
+ - Planning for mainContainer & secondary container
+ - Fetch data for trailer video
+ - Update Store with Trailer Video Data
+ - Embeded the Youtube Video and make it autoplay and mute
 
 
  # Features
